@@ -7,7 +7,7 @@ nav{
 menu {
 display: grid;
 grid-template-rows: 2fr;
-width: 500px;
+width: 100%;
 
 }
     menu ul {
@@ -28,21 +28,23 @@ width: 500px;
     text-align: center;
     font-family: 'Lacquer';
     color: rgb(231, 117, 136);
-    
+    padding: 0;
 }
 
 .logo h2 {
     font-size: 1.5em;
     font-family: 'Lacquer';
     color: rgb(231, 117, 136);
+    padding: 0;
 }
 
 
 .profile {
     display: flex;
-    justify-content: space-evenly;
-    width: 500px;
-    margin: 0;
+    width: 80vw;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .profile img{
@@ -51,8 +53,16 @@ width: 500px;
     height: 50px;
     transition: 0.8s;
     vertical-align: middle;
-    padding: ;
+    padding: 0;
+    margin: 0 auto;
 
+}
+
+.profile a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
 }
 
 .profile button {

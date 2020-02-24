@@ -31,6 +31,8 @@ menu ul li {
     width: 80px;
     list-style: none;
     text-align: center;
+    width: 100%;
+    height: 100%;
 }
 
 menu ul li a {
@@ -39,8 +41,11 @@ menu ul li a {
     line-height: 5em;
     text-decoration: none;
     font-family: 'Comfortaa';
+    font-size: 1em;
     color: black;
     transition: 0.2s;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -54,7 +59,7 @@ menu ul li a:hover {
     width: 30%;
     height: auto;
     margin: 0 auto;
-    padding-right: 150px;
+    margin-right: 25px;
     
     
 }
@@ -105,6 +110,8 @@ vertical-align: middle;
     transform: rotate(360deg);
    
 }
+
+
 
 .profile button {
     display: none;
