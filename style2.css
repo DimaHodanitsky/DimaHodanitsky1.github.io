@@ -119,7 +119,7 @@ vertical-align: middle;
 
 section {
     width: 100vw;
-    height: 100%;
+    height: auto;
 }
 .content {
     width: 50%;
@@ -149,9 +149,7 @@ section {
     height: 218px;
     animation: waves 15s infinite linear;
     position: absolute;
-    overflow-x:  hidden;
     top: 0;
-    
 }
 
 .wave2 {
@@ -162,12 +160,8 @@ section {
     opacity: 0.4;
     animation: waves 10s infinite linear;
     position: absolute;
-    overflow-x:  hidden;
     top: 0;
 }
-
-
-
 
 @keyframes waves {
     from {
@@ -179,6 +173,7 @@ section {
         margin-left: -1938px;
       }
 }
+
 
 .section_two {
     margin-top: -1px;
